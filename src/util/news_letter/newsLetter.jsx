@@ -21,7 +21,7 @@ const NewsLetter = () => {
             <div className="cl-lg-input-container">
             <div className="cl-lg-input-box">
               <input type="text" className="cl-lg-input" placeholder='someone@example.com' />
-              <div className="cl-lg-btn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAICAYAAAC2wNw9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABBSURBVHgB7ZRBDQAgFELRQhpBmxjFpkZBvBvAz3zb27hyACAwJIescOGUkcu6VFKYiE+RTfaMz1tY7cjuFG63vQGMJToddVXkcAAAAABJRU5ErkJggg==" class="cl-lg-btn-img"/></div>
+              <div className="cl-lg-btn"><img alt='' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAICAYAAAC2wNw9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABBSURBVHgB7ZRBDQAgFELRQhpBmxjFpkZBvBvAz3zb27hyACAwJIescOGUkcu6VFKYiE+RTfaMz1tY7cjuFG63vQGMJToddVXkcAAAAABJRU5ErkJggg==" class="cl-lg-btn-img"/></div>
             </div>
             </div>
               <div className="cl-lg-dummy"></div>

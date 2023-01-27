@@ -10,13 +10,14 @@ const Head = () => {
   const appState=useSelector(store=>store.appState)
   const [hover,setHover]=useState(false)
   const dispatch = useDispatch()
-  const widthFinder=()=>{
-    dispatch(setWidth(window.screen.width))
-  }
   useEffect(()=>{
-    window.addEventListener("resize",widthFinder)
-    return ()=>window.removeEventListener("resize",widthFinder);
-  },[])
+    window.addEventListener("resize",()=>{
+      dispatch(setWidth(window.screen.width))
+    })
+    return ()=>window.removeEventListener("resize",()=>{
+      dispatch(setWidth(window.screen.width))
+    });
+  },[dispatch])
   const url =appState.darkMode?headState.width<=425?headState.bgimg.sm.dark:headState.bgimg.lg.dark :headState.width<=425?headState.bgimg.sm.light:headState.bgimg.lg.light;
   return (
     <div className="head-container" style={{

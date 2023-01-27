@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import "./partners.css"
 import { pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8 } from "../../img/index"
 import "slick-carousel/slick/slick.css"; 
@@ -48,55 +48,55 @@ const Partners = () => {
                 <div>
                 <div className='ptr-list-item ptr-list-item1'>
                 
-                    <a href="https://www.breederdao.io/" target="_blank" className='ptr-list-item-link'>
+                    <a href="https://www.breederdao.io/" rel="external" className='ptr-list-item-link'>
                         <img src={pt1} alt="" className="ptr-img" />
                     </a></div></div>
                 <div>
                 <div className='ptr-list-item ptr-list-item2'>
                 
-                    <a href="https://www.mooncase.io/" target="_blank" className='ptr-list-item-link'>
+                    <a href="https://www.mooncase.io/" rel="external" className='ptr-list-item-link'>
 
                         <img src={pt2} alt="" className="ptr-img" />
                     </a></div></div>
                 <div>
                 <div className='ptr-list-item ptr-list-item3'>
                 
-                    <a href="https://polygon.technology/" target="_blank" className='ptr-list-item-link'>
+                    <a href="https://polygon.technology/" rel="external" className='ptr-list-item-link'>
 
                         <img src={pt3} alt="" className="ptr-img" />
                     </a></div></div>
                 <div>
                 <div className='ptr-list-item ptr-list-item4'>
                 
-                    <a href="https://regrob.com/" target="_blank" className='ptr-list-item-link'>
+                    <a href="https://regrob.com/" rel="external" className='ptr-list-item-link'>
 
                         <img src={pt4} alt="" className="ptr-img" />
                     </a></div></div>
                 <div>
                 <div className='ptr-list-item ptr-list-item5'>
                 
-                    <a href="https://supraoracles.com/" target="_blank" className='ptr-list-item-link'>
+                    <a href="https://supraoracles.com/" rel="external" className='ptr-list-item-link'>
 
                         <img src={pt5} alt="" className="ptr-img" />
                     </a></div></div>
                 <div>
                 <div className='ptr-list-item ptr-list-item6'>
                 
-                    <a href="https://web3.timespro.com/" target="_blank" className='ptr-list-item-link'>
+                    <a href="https://web3.timespro.com/" rel="external" className='ptr-list-item-link'>
 
                         <img src={pt6} alt="" className="ptr-img" />
                     </a></div></div>
                 <div>
                 <div className='ptr-list-item ptr-list-item7'>
                 
-                    <a href="https://polygonstudios.com/" target="_blank" className='ptr-list-item-link'>
+                    <a href="https://polygonstudios.com/" rel="external" className='ptr-list-item-link'>
 
                         <img src={pt7} alt="" className="ptr-img" />
                     </a></div></div>
                 <div>
                 <div className='ptr-list-item ptr-list-item8'>
                 
-                    <a href="https://oneverse.one/" target="_blank" className='ptr-list-item-link'>
+                    <a href="https://oneverse.one/" rel="external" className='ptr-list-item-link'>
 
                         <img src={pt8} alt="" className="ptr-img" />
                     </a></div></div>

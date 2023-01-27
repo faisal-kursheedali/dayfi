@@ -1,18 +1,13 @@
-import React ,{useEffect,useState} from 'react'
+import React  from 'react'
 import "./nav.css"
 import { useDispatch, useSelector } from 'react-redux'
 import { setDark } from '../../app/app'
 
 const Nav = () => {
-  const [screenState,setScreenState]=useState(0)
   const appState = useSelector(store=>store.appState)
   const headState = useSelector(store=>store.headState)
   const dispatch=useDispatch();
-  useEffect(()=>{
-     setScreenState(prev=>{
-      prev=window.screen.width;
-     })
-  },[window.screen.width])
+  
   return (
     <div className="nav-container">
         <div className="nav-logo">
