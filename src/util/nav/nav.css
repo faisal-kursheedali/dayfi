@@ -1,0 +1,59 @@
+.nav-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.nav-logo{
+    height: 2rem;
+    width: 6rem;
+}
+.nav-logo-img{
+    height: 100%;
+    width: 100%;
+}
+.nav-clr-theme{
+    margin-left: auto;
+}
+.nav-clr-theme-btn{
+    padding: 6px;
+    width: 32;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 1rem;
+    outline-offset: 0px;
+    cursor: pointer;
+}
+.nav-clr-theme-light{
+    background-color:#F8E4D4 ;
+    border: 3.5px solid #675f59;
+    
+}
+.nav-clr-theme-light:hover{
+    background-color: black;
+    color: #F8E4D4;
+}
+.nav-clr-theme-dark{
+    border: 0px;
+    color: #F8E4D4;
+    background-color: black;
+    border: 3.5px solid black;
+}
+
+.nav-clr-theme-dark:hover{
+    color: black;
+    background-color: #F8E4D4;
+    border-color: transparent;
+}
+@media (min-width:768px) {
+    .nav-logo{
+        height:2.5rem ;
+        width: 8rem;
+    }
+}

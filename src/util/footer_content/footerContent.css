@@ -1,0 +1,135 @@
+.fc{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 96px;
+}
+
+.fc-head{
+    font-size: 5vw;
+    font-weight: 500;
+}
+.fc-sub {
+    font-size: 4vw;
+    font-weight: 400;
+}
+.fc-sm-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fc-lrg-screen{
+    display: none;
+}
+.fc-link-social-media{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fc-link{
+    display: flex;
+    flex-direction: column;
+}
+.fc-link-social-media-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: black;
+    background-color: rgb(248, 228, 212);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 2.5rem;
+}
+.fc-link-social-media-link:first-child {
+    margin-left: 0px;
+}
+.fc-link-social-media-link:hover{
+    background-color: black;
+    color: rgb(248, 228, 212);
+}
+.fc-link-other{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: left;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.fc-link-other-item{
+    width: 50%;
+    cursor: pointer;
+}
+
+@media (min-width:768px) {
+    .fc-head{
+        font-size: 4.5vw;
+    }
+    .fc-sub {
+        font-size: 3vw;
+    }
+}
+
+@media (min-width:960px) {
+    .footer1{
+        display: none;
+    }
+    .fc{
+        padding-top: 128px;
+        padding-bottom: 128px;
+    }
+    .fc-sm-screen{
+        display: none;
+    }
+    .fc-lrg-screen{
+        display: block;
+        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .fc-hr-lrg-screen{
+        margin-top: 80px;
+        width: 70%;
+        border: 0px;
+        border-bottom: 1px solid;
+        opacity: 0.6;
+        color: rgb(248, 228, 212);
+    }
+    .fc-sub-lrg-screen{
+        font-size:1.25rem ;
+        font-weight: 400;
+        color: white;
+
+    }
+    .fc-link-other{
+        display: none;
+    }
+    .fc-link-other-item{
+        width:initial;
+        margin-left: 40px;
+    }
+    .fc-link-other-item:first-child{
+        margin-left: 0px;
+    }
+    .fc-link-other-lrg-screen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-size: 0.875rem;
+    }
+}
+
+.fc-link-other-item:hover{
+    text-decoration: underline;
+}
+

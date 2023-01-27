@@ -1,0 +1,14 @@
+.sub-container{
+    padding: 80px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(248, 228, 212);
+    box-sizing: border-box;
+}
+.sub-head{
+    font-size: 1.125rem;
+    text-align: center;
+    font-weight: 600;
+    
+}

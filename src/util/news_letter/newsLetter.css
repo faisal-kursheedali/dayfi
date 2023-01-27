@@ -1,0 +1,156 @@
+.nl-sm{
+    padding: 80px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nl-sm-head,.nl-sm-sub{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+.nl-sm-sub{
+    opacity: 0.5;
+    color: rgb(248, 228, 212);
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+.nl-sm-input-container{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.nl-sm-input{
+    font-size: 1rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(61, 61, 61);
+    color: rgb(248, 228, 212);
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid rgb(248, 228, 212) ;
+    outline: 0px;
+    caret-color: rgb(248, 228, 212);
+}
+.nl-sm-btn{
+    margin-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    min-width: 2.5rem;
+    color: black;
+    background-color: #F8E4D4;
+    outline: 0px;
+    border-radius: .5rem;
+    border: 0px;
+    cursor: pointer;
+}
+
+.nl-lg{
+    display: none;
+    width: 100%;
+}
+
+.nl-lg-conatiner{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.75rem;
+    background-color: rgb(70, 70, 70);
+    width: 60%;
+    padding: 29px 0px;
+    padding-inline:50px;
+    box-shadow: rgb(0 0 0 / 11%) 0px 2.76726px 2.21381px 0px, rgb(0 0 0 / 16%) 0px 6.6501px 5.32008px 0px, rgb(0 0 0 / 20%) 0px 12.5216px 10.0172px 0px, rgb(0 0 0 / 23%) 0px 22.3363px 17.869px 0px, rgb(0 0 0 / 28%) 0px 41.7776px 33.4221px 0px, rgb(0 0 0 / 39%) 0px 100px 80px 0px;
+    margin-top: -48px;
+}
+.cl-lg-txt-box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.cl-lg-txt-head{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.cl-lg-txt-sub{
+   color:  rgb(248, 228, 212);
+   opacity: 0.5;
+   font-weight: 400;
+   font-size: 0.75rem;
+   line-height: 1.5;
+}
+.cl-lg-input-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.cl-lg-input-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(61, 61, 61);
+    color: rgb(232, 232, 232);
+    border-radius: 0.5rem;
+    border: 1px solid rgb(232, 232, 232);
+}
+.cl-lg-input{
+    width: 100%;
+    height: 100%;
+    min-width: 0px;
+    background-color:transparent;
+    border-radius: 0.75rem;
+    border: 0px;
+    outline: 0px;
+    font-size: 1rem; 
+    padding: 0px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    caret-color: rgb(248, 228, 212);
+    color: rgb(248, 228, 212);
+    font-size: inherit;
+}
+.cl-lg-btn{
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1rem;
+   padding-inline-start: 1rem;
+   padding-inline-end: 1rem;
+   color: inherit;
+   padding-right: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   cursor: pointer;
+}
+.cl-lg-btn-img{
+    max-width: 100%;
+    height: auto;
+}
+.cl-lg-dummy{
+    margin-inline-start: 0.5rem;
+}
+@media (min-width:960px) {
+    .nl-sm{
+        display: none;
+    }
+    .nl-lg{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+::placeholder{
+    color:rgb(248, 228, 212) ;
+}

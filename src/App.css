@@ -1,0 +1,100 @@
+body{
+  margin: 0px;
+  font-family:Degular;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .head{
+  background-image: url("https://www.dayfi.io/static/media/mobile-hero-dark.108c6930427d3fa041f1.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+
+@media (min-width:768px) {
+  .head{
+    min-height: 110vh;
+    padding-left: 128px;
+    padding-right: 128px;
+  }
+}
+@media  (min-width: 960px){
+  .head{
+    background-image: url("https://dayfiextras.s3.ap-southeast-1.amazonaws.com/Hero+black+gif.gif");
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+@media (max-width:768px) {
+  .head{
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+}
+@media (max-width:426px) {
+  .head{
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .head-nav-logo{
+    height: 32px;
+    width: 96px;
+  }
+}
+
+
+.head-nav{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+.head-nav-logo{
+  height: 2.5rem;
+  width: 8rem;
+}
+.head-nav-logo-img{
+  width: 100%;
+  height: 100%;
+}
+.head-nav-theam{
+  margin-left: auto;
+  padding: 4px;
+}
+
+.head-nav-light{
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: 4px solid #675f59;
+  background-color: #f8e4d4;
+  font-weight: 600;
+}
+ */
