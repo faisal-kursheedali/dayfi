@@ -18,7 +18,7 @@ const Head = () => {
       dispatch(setWidth(window.screen.width))
     });
   },[dispatch])
-  const url =appState.darkMode?headState.width<=425?headState.bgimg.sm.dark:headState.bgimg.lg.dark :headState.width<=425?headState.bgimg.sm.light:headState.bgimg.lg.light;
+  const url =appState.darkMode?headState.width<=960?headState.bgimg.sm.dark:headState.bgimg.lg.dark :headState.width<=960?headState.bgimg.sm.light:headState.bgimg.lg.light;
   return (
     <div className="head-container" style={{
       backgroundImage:`url(${url})` 
@@ -32,6 +32,7 @@ const Head = () => {
       </div>
       <div className="head-sub" style={{color:`${appState.darkMode?"rgb(248, 228, 212)": "rgba(0, 0, 0, 0.64)"}`}}>
         Become a bull not a bear, Increase your dapp adoption with dayfi's trailblazing
+        <br  className='head-sub-br'/>
         non-custodial buy now pay later & renting infrastructure.
       </div>
       <div className="head-btn-container">
