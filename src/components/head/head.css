@@ -25,7 +25,7 @@
     word-break: break-word;
 }
 .head-sub{
-    margin-top: 20px;
+    margin-top: 12px;
     font-size: 1rem;
     font-weight: 600;
     margin-right: 0px;
@@ -64,6 +64,12 @@
 }
 
 
+
+@media (min-width:320px) {
+    .head-sub{
+        margin-top: 20px;
+    }
+}
 
 @media (min-width:768px) {
     .head-container{
@@ -107,5 +113,8 @@
     }
     .head-sub-br{
         display: none;
+    }
+    .head-sub{
+        margin-top:32px ;
     }
 }
